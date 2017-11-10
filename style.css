@@ -165,3 +165,46 @@ footer img {
     margin-left: 2rem;
     margin-right: 1rem;
 }
+
+@media only screen and (max-width: 560px){
+  header div span {
+  display: none;
+}
+}
+
+@media only screen and (max-width: 560px){
+header {
+    background-position: 20%;
+    height: 17rem;
+}
+}
+
+@media only screen and (max-width: 560px) {
+.main-banner {
+    padding: 0 1rem;
+    margin: 9rem auto 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  }
+
+@media only screen and (max-width: 560px){
+.main-banner h1 {
+    font-size: 1rem;
+}
+}
+
+@media only screen and (max-width: 560px){
+  .supporting {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem;
+}
+}
+
+@media only screen and (max-width: 560px){
+footer {
+    justify-content: center;
+}
+}
